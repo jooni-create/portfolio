@@ -1,0 +1,130 @@
+
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+body{
+    background-color:#fff;
+}
+header{
+    width:1000px;
+    margin: 0 auto;
+    padding:1% 0 0 0;
+    font-family:'Poppins', sans-serif;
+}
+header h1{
+    display: inline-block;
+    width:30%;
+    font-family:'Poppins', sans-serif;
+}
+header h1 a{
+    font-size:28px;
+    text-decoration: none;
+    color:#9094A5;
+    font-family:'Poppins', sans-serif;
+}
+.intro{
+    width:1000px;
+    height:240px;
+    margin:0 auto;
+    padding:50px 0 36px 0;
+}
+.intro h1{
+    text-align: center;
+    padding:10px 0 0px 0;
+    margin:0 0 0 0;
+}
+.intro h1 a{
+    color:#717481;
+    font-family: 'noto sans', sans-serif;
+    font-size:28px;
+    text-decoration: none;
+}
+.intro p{
+    font-size:24px;
+    text-align: center;
+    padding:10px 0 0 0;
+    color:#9094a5;
+    font-family:'noto sans', sans-serif;
+    margin:8px 0 8px 0;
+}
+
+.nav{
+    display: inline-block;
+    width:65%;
+    text-align: right;
+    margin:0;
+}
+.nav li{
+    display: inline-block;
+    padding-left:40px;
+    transition:0.3s;
+} 
+.nav li a{
+    font-size:20px;
+    text-decoration: none;
+    color:#9094A5;
+    font-family:"Poppins",sans-serif;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.nav li:hover{
+    transform: translate(0, 5px);
+}
+.nav li a:hover{color:#000;}
+
+section{
+    width:1000px;
+    margin:0 auto;
+    padding:30px; 0 0 0;
+}
+.profile{
+    width:40%;
+    float: left;
+    padding:40px 0 0 0;
+}
+.profile img{
+    width:80%;
+    margin:0 auto;
+    padding:0 0 30px 0;
+}
+.profile a{
+    font-size:20px;
+    color:#9094A5;
+    font-weight: 600;
+}
+.profile p{
+    padding:0 0 20px 0;
+    color:#A9ACB9;
+    font-size:14px;
+}
+.coverletter{
+    float:right;
+    width:50%;
+    white-space: pre;
+    color:#9094A5;
+    padding:0 0 0 0;
+    height:290px;
+    
+}
+.coverletter h1{
+    line-height: 1.6;
+    margin:0 0 -20px 0;
+    font-size: 26px;
+   
+}
+.coverletter p{
+    font-size:14px;
+    font-weight: 400;
+    line-height: 1.8;
+    margin:0 0 0 0;
+    
+}
+
+footer{
+    display:inline-block;
+    text-align: right;
+    color: #9094A5;
+    font-size: 16px;
+    width:1000px;
+    margin:0 auto;
+    padding:60px 0 0 0;
+}
+
