@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body{
+    background-color:#fff;
+}
+header{
+    width:1000px;
+    margin: 0 auto;
+    padding:1% 0 0 0;
+    font-family:'Poppins', sans-serif;
+}
+header h1{
+    display: inline-block;
+    width:30%;
+    font-family:'Poppins', sans-serif;
+}
+header h1 a{
+    font-size:28px;
+    text-decoration: none;
+    color:#9094A5;
+    font-family:'Poppins', sans-serif;
+}
+
+.nav{
+    display: inline-block;
+    width:65%;
+    text-align: right;
+    margin:0;
+}
+.nav li{
+    display: inline-block;
+    padding-left:40px;
+    transition:0.3s;
+} 
+.nav li a{
+    font-size:20px;
+    text-decoration: none;
+    color:#9094A5;
+    font-family:"Poppins",sans-serif;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.nav li:hover{
+    transform: translate(0, 5px);
+}
+.nav li a:hover{color:#000;}
+
+/* ------------------------------------- project detail */
+
+section{
+    width:100%;
+}
+
+.sec01{
+    width:100%;
+    background-color: #A5ABDB;
+    height:432px;
+ }
+
+.mainimg{
+    width:1200px;
+    text-align: center;
+    margin:0 auto;
+}
+.mainimg img{
+    width:80%;
+    text-align: center;
+    margin:0 auto;
+    position: relative;
+}
+
+/* ------------------------------------- section 02 */
+.sec02{
+    width:100%; height: 320px;
+    display:inline-block; padding:60px 0 0 0;
+    background:#fff;
+}
+.sec02_wrap{
+    width:1200px; margin:0 auto;
+}
+.overview{
+    width:40%;
+    float:left; white-space: pre;
+    padding:0 0 0 100px;  margin:0 auto;
+}
+.overview p{
+    font-weight:400; margin:0; color:#404040;
+}
+.overview span{
+    display: inline-block; color:#8D8D8D;
+    font-weight:200; font-size: 14px;
+    line-height: 1.8; margin-top:-5px;
+}
+.textinfo{
+    padding:20px 0 0 0;
+}
+.textinfo p{color:#404040;}
+.textinfo span{
+    font-weight: 300; color:#8D8D8D;
+}
+/* ------------------------------------- section 03, ux01 */
+.sec03{
+    width:100%; height:600px;
+    background-color:#fcfcfc; 
+}
+.sec03_wrap{
+    width:1200px; margin:0 auto;}
+.ux01_text{
+    padding:50px 0 0 100px;
+}
+.ux01_text p{
+    font-size:13px; color:#D0D0D0;
+}
+.hr01{width:1000px; margin:-5px 0 0 0; border-top: 1px #D0D0D0;}
+.ux01_text h1{
+    white-space: pre; line-height: 1.6;
+    height:28px; padding:10px 0 0 0; color:#090D26;
+}
+.ux01_img{
+   text-align: center;
+}
+.ux01_img img{
+    padding:6% 0 0 0; width:76%;
+}
+/* ------------------------------------- section 04, ux02 */
+.sec04{
+    width:100%; height:600px;
+    background-color:#fcfcfc; 
+}
+.sec04_wrap{
+    width:1200px; margin:0 auto; 
+}
+.ux02_text{
+    padding:50px 0 0 100px;
+}
+.ux02_text p{
+    font-size:13px; color:#D0D0D0;
+}
+.hr02{width:1000px; margin:-5px 0 0 0; border-top: 1px #D0D0D0;}
+.ux02_text h1{
+    white-space: pre; line-height: 1.6;
+    height:28px; padding:10px 0 0 0; color:#090D26;
+}
+.ux02_img{
+   text-align: center; margin:0;
+}
+.ux02_img img{
+    padding:3% 0 0 0; width:66%; 
+}
+/* ------------------------------------- section 05, ux03 */
+.sec05{
+    width:100%; height:730px;
+
+}
+.sec05_wrap{
+    width:1200px; margin:0 auto;
+}
+.ux03_text{
+    padding:50px 0 0 100px;
+}
+.ux03_text p{
+    font-size:13px; color:#D0D0D0;
+}
+.hr03{width:1000px; margin:-5px 0 0 0; border-top: 1px #D0D0D0;}
+.ux03_img{
+   text-align: center; margin:0;
+}
+.ux03_img img{
+    padding:4% 0 0 0; width:74%; 
+}
+/* ------------------------------------------- UI 01 */
+.sec06{
+    width:100%; position: relative;
+    position: relative; 
+}
+.sec06_wrap{
+    width:1400px; margin:0 auto; 
+}
+.ui01_text{
+    padding:10px 0 0 0; position: absolute; 
+    top:2%; left:50%; transform: translateX(-50%);
+}
+.ui01_text p{
+    font-size:13px; color:#fff; 
+}
+.hr04{width:1000px; border-top: 1px #fff;}
+
+.ui01_img{
+   text-align: center; margin:0; 
+   
+}
+.ui01_img img{
+    width:100%; 
+}
+
+.text02 p{font-size: 13px; line-height: 1.8;}
+.text02{
+    white-space: pre; position: absolute; top:68%; left:20%;
+    line-height: 1.6; 
+}
+.text02 h1{height:8px;}
+/* ------------------------------------------- UI 02 */
+.sec07{
+    width:100%; position: relative;
+    position: relative; 
+}
+.sec07_wrap{
+    width:1400px; margin:0 auto; 
+}
+.ui02_text{
+    padding:10px 0 0 0; position: absolute; 
+    top:2%; left:50%; transform: translateX(-50%);
+}
+.ui02_text p{
+    font-size:13px; color:#fff; 
+}
+.hr05{width:1000px; border-top: 1px #fff;}
+
+.ui02_img{
+   text-align: center; margin:0; 
+   
+}
+.ui02_img img{
+    width:100%; 
+}
+
+.text03 p{font-size: 13px; line-height: 1.8;}
+.text03{
+    white-space: pre; position: absolute; top:68%; left:20%;
+    line-height: 1.6; 
+}
+.text03 h1{height:8px;}
+/* ------------------------------------------- UI 03 */
+.sec08{
+    width:100%; height:840px; position: relative;
+    margin:0 0 0 0;
+}
+.sec08_wrap{
+    width:1200px; margin:0 auto; 
+}
+.ui03_text{
+    padding:40px 0 0 100px;
+}
+.ui03_text p{
+    font-size:13px; color:#000; 
+}
+.hr06{
+    width:1000px; margin:0 0 0 0;
+}
+.ui03_img{
+   text-align: center; margin:0; 
+   
+}
+.ui03_img img{
+    width:34%; margin-top:-28px; padding:0 10px;
+}
+.ui03_text2{
+    text-align: center; white-space: pre; margin-top:-20px;}
+.ui03_text2 p{
+    font-size: 13px; line-height: 1.8; margin-top:-44px;}
+/* ------------------------------------------- UI 04 */
+.sec09{
+    width:100%; position: relative; margin:5% 0 0 0;
+}
+.sec09_wrap{
+    width:1400px; margin:0 auto; 
+}
+.ui04_text{
+    padding:10px 0 0 0; position: absolute; 
+    top:2%; left:50%; transform: translateX(-50%);
+}
+.ui04_text p{
+    font-size:13px; color:#fff; 
+}
+.hr07{width:1000px; border-top: 1px #fff;}
+.ui04_text2{
+    position: absolute;  top:10%; margin:2% 0 0 0;
+    white-space: pre; text-align: center;
+    top:2%; left:50%; transform: translateX(-50%);
+}
+.ui04_text2 p{
+    font-size: 13px; line-height: 1.8; margin-top:-44px;
+}
+.ui04_img{
+   text-align: center; margin:0; 
+   
+}
+.ui04_img img{
+    width:100%; 
+}
+
+.text05 p{font-size: 13px; line-height: 1.8;}
+.text05{
+    white-space: pre; position: absolute; top:68%; left:20%;
+    line-height: 1.6; 
+}
+.text05 h1{height:8px;}
+/* ------------------------------------------- UI 05 */
+.sec10{
+    padding:7% 0 0 0;
+    background: #fff; text-align: center;
+}
+/* ------------------------------------------- back to project */
+.moveto{
+    width:100%; text-align: center;
+    padding:10% 0 10% 0;
+}
+.moveto a{
+    font-size:24px; font-family: 'Poppins';
+    color:#9094A5;
+}
+.moveto a:hover{
+    color:#000;
+}
+
+/* ------------------------------------------- scroll ani */
+.sa{
+    opacity: 0;
+    transition:all .5s ease;
+}
+.sa .ux01_img{
+    transform: translate(0, 100px);
+}
+.sa.show{
+    opacity:1;
+    transform:none;
+}
