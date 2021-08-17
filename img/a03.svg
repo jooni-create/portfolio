@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="958" height="400" viewBox="0 0 958 400">
+  <defs>
+    <filter id="타원_353" x="279" y="12" width="388" height="388" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#5d78d3" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="타원_355" x="669" y="53" width="63" height="63" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur-2"/>
+      <feFlood flood-color="#80a2ff"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="타원_354" x="669" y="183" width="63" height="63" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur-3"/>
+      <feFlood flood-color="#80a2ff"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="타원_352" x="669" y="308" width="63" height="63" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur-4"/>
+      <feFlood flood-color="#80a2ff"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="그룹_2643" data-name="그룹 2643" transform="translate(-2877 -3908)">
+    <path id="패스_1575" data-name="패스 1575" d="M1549.242,4406.5h-72.375" transform="translate(2025 -287)" fill="none" stroke="#80a2ff" stroke-width="1"/>
+    <path id="패스_1576" data-name="패스 1576" d="M1476.867,4406.5h72.375" transform="translate(1644.737 -287)" fill="none" stroke="#c6cee5" stroke-width="1"/>
+    <path id="패스_1578" data-name="패스 1578" d="M1551.719,4276.075s-30.07-7.083-40.7,35.645-48.328,39.164-48.328,39.164" transform="translate(2025 -287)" fill="none" stroke="#80a2ff" stroke-width="1"/>
+    <path id="패스_1579" data-name="패스 1579" d="M1462.69,4269.5s40.083-10.677,50.907,41.247,43.4,40.137,43.4,40.137" transform="translate(1651.155 -287)" fill="none" stroke="#c6cee5" stroke-width="1"/>
+    <path id="패스_1574" data-name="패스 1574" d="M1553.216,4346.6s-33.765-1.709-47.123-36.726-43.4-40.137-43.4-40.137" transform="translate(2025 -100.532)" fill="none" stroke="#80a2ff" stroke-width="1"/>
+    <path id="패스_1577" data-name="패스 1577" d="M1462.69,4351.125s40.083,10.677,50.907-41.247,43.4-40.137,43.4-40.137" transform="translate(1651.155 -100.532)" fill="none" stroke="#c6cee5" stroke-width="1"/>
+    <rect id="사각형_3481" data-name="사각형 3481" width="258" height="87" rx="43.5" transform="translate(2877 3947)" fill="#f5f6fa"/>
+    <rect id="사각형_3482" data-name="사각형 3482" width="258" height="87" rx="43.5" transform="translate(3577 3947)" fill="#4755a1"/>
+    <rect id="사각형_3477" data-name="사각형 3477" width="258" height="87" rx="43.5" transform="translate(3577 4201)" fill="#4755a1"/>
+    <rect id="사각형_3478" data-name="사각형 3478" width="258" height="106" rx="53" transform="translate(3577 4064)" fill="#4755a1"/>
+    <rect id="사각형_3479" data-name="사각형 3479" width="258" height="87" rx="43.5" transform="translate(2877 4076)" fill="#f5f6fa"/>
+    <rect id="사각형_3480" data-name="사각형 3480" width="258" height="87" rx="43.5" transform="translate(2877 4201)" fill="#f5f6fa"/>
+    <text id="오프라인에서_사이즈를_확인하고_인터넷으로_주문한다" data-name="오프라인에서 사이즈를 확인하고
+인터넷으로 주문한다" transform="translate(2905 3983)" fill="#38479a" font-size="16" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">오프라인에서</tspan><tspan y="0" font-family="Poppins-Medium, Poppins"> </tspan><tspan y="0">사이즈를</tspan><tspan y="0" font-family="Poppins-Medium, Poppins"> </tspan><tspan y="0">확인하고</tspan><tspan y="0" font-family="Poppins-Medium, Poppins"></tspan><tspan x="0" y="27">인터넷으로</tspan><tspan y="27" font-family="Poppins-Medium, Poppins"> </tspan><tspan y="27">주문한다</tspan></text>
+    <text id="Problem" transform="translate(2973 3925)" fill="#80a2ff" font-size="16" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Problem</tspan></text>
+    <text id="Solution" transform="translate(3673 3925)" fill="#80a2ff" font-size="16" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Solution</tspan></text>
+    <text id="VR로_직접_입어보고_잘_맞는지_확인하며_주문한다" data-name="VR로 직접 입어보고 잘 맞는지
+확인하며 주문한다" transform="translate(3611 3983)" fill="#fff" font-size="16" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">VR</tspan><tspan y="0" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo">로</tspan><tspan y="0"> </tspan><tspan y="0" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo">직접</tspan><tspan y="0"> </tspan><tspan y="0" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo">입어보고</tspan><tspan y="0"> </tspan><tspan y="0" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo">잘</tspan><tspan y="0"> </tspan><tspan y="0" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo">맞는지</tspan><tspan y="0"></tspan><tspan font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo"><tspan x="0" y="27">확인하며</tspan><tspan y="27" font-family="Poppins-Medium, Poppins"> </tspan><tspan y="27">주문한다</tspan></tspan></text>
+    <text id="모델과_나의_신체조건이_맞지_않아_반품할_때가_있다" data-name="모델과 나의 신체조건이 맞지
+않아 반품할 때가 있다" transform="translate(2917 4112)" fill="#38479a" font-size="16" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">모델과</tspan><tspan y="0" font-family="Poppins-Medium, Poppins"> </tspan><tspan y="0">나의</tspan><tspan y="0" font-family="Poppins-Medium, Poppins"> </tspan><tspan y="0">신체조건이</tspan><tspan y="0" font-family="Poppins-Medium, Poppins"> </tspan><tspan y="0">맞지</tspan><tspan y="0" font-family="Poppins-Medium, Poppins"></tspan><tspan x="0" y="27">않아</tspan><tspan y="27" font-family="Poppins-Medium, Poppins"> </tspan><tspan y="27">반품할</tspan><tspan y="27" font-family="Poppins-Medium, Poppins"> </tspan><tspan y="27">때가</tspan><tspan y="27" font-family="Poppins-Medium, Poppins"> </tspan><tspan y="27">있다</tspan></text>
+    <text id="저장된_내_신체정보로_AI가_피팅_지수를_파악하여_사이즈_실수를_줄인다" data-name="저장된 내 신체정보로 AI가 
+피팅 지수를 파악하여 사이즈
+실수를 줄인다" transform="translate(3617 4098)" fill="#fff" font-size="16" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">저장된</tspan><tspan y="0" font-family="Poppins-Medium, Poppins"> </tspan><tspan y="0">내</tspan><tspan y="0" font-family="Poppins-Medium, Poppins"> </tspan><tspan y="0">신체정보로</tspan><tspan y="0" xml:space="preserve" font-family="Poppins-Medium, Poppins"> AI</tspan><tspan y="0">가</tspan><tspan y="0" font-family="Poppins-Medium, Poppins"> </tspan><tspan x="0" y="26">피팅</tspan><tspan y="26" font-family="Poppins-Medium, Poppins"> </tspan><tspan y="26">지수를</tspan><tspan y="26" font-family="Poppins-Medium, Poppins"> </tspan><tspan y="26">파악하여</tspan><tspan y="26" font-family="Poppins-Medium, Poppins"> </tspan><tspan y="26">사이즈</tspan><tspan y="26" font-family="Poppins-Medium, Poppins"></tspan><tspan x="0" y="52">실수를</tspan><tspan y="52" font-family="Poppins-Medium, Poppins"> </tspan><tspan y="52">줄인다</tspan></text>
+    <text id="오프라인_매장에서_여러개의_옷을_피팅하기_번거롭다" data-name="오프라인 매장에서 여러개의 
+옷을 피팅하기 번거롭다" transform="translate(2917 4236)" fill="#38479a" font-size="16" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">오프라인</tspan><tspan y="0" font-family="Poppins-Medium, Poppins"> </tspan><tspan y="0">매장에서</tspan><tspan y="0" font-family="Poppins-Medium, Poppins"> </tspan><tspan y="0">여러개의</tspan><tspan y="0" font-family="Poppins-Medium, Poppins"> </tspan><tspan x="0" y="27">옷을</tspan><tspan y="27" font-family="Poppins-Medium, Poppins"> </tspan><tspan y="27">피팅하기</tspan><tspan y="27" font-family="Poppins-Medium, Poppins"> </tspan><tspan y="27">번거롭다</tspan></text>
+    <text id="VR_클릭으로_게임하듯이_여러벌의_옷을_갈아입을_수_있다." data-name="VR 클릭으로 게임하듯이 
+여러벌의 옷을 갈아입을 수 있다." transform="translate(3606 4237)" fill="#fff" font-size="16" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">VR </tspan><tspan y="0" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo">클릭으로</tspan><tspan y="0"> </tspan><tspan y="0" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo">게임하듯이</tspan><tspan y="0"> </tspan><tspan font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo"><tspan x="0" y="27">여러벌의</tspan><tspan y="27" font-family="Poppins-Medium, Poppins"> </tspan><tspan y="27">옷을</tspan><tspan y="27" font-family="Poppins-Medium, Poppins"> </tspan><tspan y="27">갈아입을</tspan><tspan y="27" font-family="Poppins-Medium, Poppins"> </tspan><tspan y="27">수</tspan><tspan y="27" font-family="Poppins-Medium, Poppins"> </tspan><tspan y="27">있다</tspan><tspan y="27" font-family="Poppins-Medium, Poppins">.</tspan></tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 2877, 3908)" filter="url(#타원_353)">
+      <g id="타원_353-2" data-name="타원 353" transform="translate(309 36)" fill="#f5f6fa" stroke="#80a2ff" stroke-width="1">
+        <circle cx="164" cy="164" r="164" stroke="none"/>
+        <circle cx="164" cy="164" r="163.5" fill="none"/>
+      </g>
+    </g>
+    <text id="VR_쇼핑" data-name="VR 쇼핑" transform="translate(3307 4028)" fill="#38479a" font-size="26" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">VR </tspan><tspan y="0" font-family="AppleSDGothicNeo-Bold, Apple SD Gothic Neo">쇼핑</tspan></text>
+    <text id="_-_3d_바디스캐너로_사용자_신체조건_데이터로_저장_-_각각의_옷_정보로_3d로_옷_표현_-_VR로_쉽게_옷을_피팅해_봄_" data-name="- 3d 바디스캐너로 사용자 신체조건 
+   데이터로 저장
+- 각각의 옷 정보로 3d로 옷 표현
+- VR로 쉽게 옷을 피팅해 봄 " transform="translate(3221 4088)" fill="#38479a" font-size="18" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">- 3d </tspan><tspan y="0" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo">바디스캐너로</tspan><tspan y="0"> </tspan><tspan y="0" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo">사용자</tspan><tspan y="0"> </tspan><tspan y="0" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo">신체조건</tspan><tspan y="0"> </tspan><tspan x="0" y="30" xml:space="preserve">   </tspan><tspan y="30" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo">데이터로</tspan><tspan y="30"> </tspan><tspan y="30" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo">저장</tspan><tspan y="30"></tspan><tspan x="0" y="60">- </tspan><tspan y="60" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo">각각의</tspan><tspan y="60"> </tspan><tspan y="60" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo">옷</tspan><tspan y="60"> </tspan><tspan y="60" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo">정보로</tspan><tspan y="60" xml:space="preserve"> 3d</tspan><tspan y="60" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo">로</tspan><tspan y="60"> </tspan><tspan y="60" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo">옷</tspan><tspan y="60"> </tspan><tspan y="60" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo">표현</tspan><tspan y="60"></tspan><tspan x="0" y="90">- VR</tspan><tspan y="90" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo">로</tspan><tspan y="90"> </tspan><tspan y="90" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo">쉽게</tspan><tspan y="90"> </tspan><tspan y="90" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo">옷을</tspan><tspan y="90"> </tspan><tspan y="90" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo">피팅해</tspan><tspan y="90"> </tspan><tspan y="90" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo">봄</tspan><tspan y="90"> </tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 2877, 3908)" filter="url(#타원_355)">
+      <g id="타원_355-2" data-name="타원 355" transform="translate(693 74)" fill="#80a2ff" stroke="#fff" stroke-width="1">
+        <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+        <circle cx="7.5" cy="7.5" r="7" fill="none"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 2877, 3908)" filter="url(#타원_354)">
+      <g id="타원_354-2" data-name="타원 354" transform="translate(693 204)" fill="#80a2ff" stroke="#fff" stroke-width="1">
+        <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+        <circle cx="7.5" cy="7.5" r="7" fill="none"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 2877, 3908)" filter="url(#타원_352)">
+      <g id="타원_352-2" data-name="타원 352" transform="translate(693 329)" fill="#80a2ff" stroke="#fff" stroke-width="1">
+        <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+        <circle cx="7.5" cy="7.5" r="7" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
