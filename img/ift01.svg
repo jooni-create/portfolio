@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="604" height="380" viewBox="0 0 604 380">
+  <g id="그룹_2652" data-name="그룹 2652" transform="translate(-901 -495)">
+    <rect id="사각형_18" data-name="사각형 18" width="604" height="380" transform="translate(901 495)" fill="#e2e2e2"/>
+    <rect id="사각형_3527" data-name="사각형 3527" width="210" height="56" rx="28" transform="translate(1098 657)" fill="#fff"/>
+    <text id="진행중" transform="translate(1169 696)" fill="#a2a2a2" font-size="25" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"><tspan x="0" y="0">진행중</tspan></text>
+  </g>
+</svg>
