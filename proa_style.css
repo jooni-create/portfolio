@@ -53,7 +53,7 @@ section{
 
 .sec01{
     width:100%;
-    background-color: #A5ABDB;
+    background-color:#a9d8e8;
     height:432px;
  }
 
@@ -202,7 +202,7 @@ section{
 /* ------------------------------------------- UI 02 */
 .sec07{
     width:100%; position: relative;
-    position: relative; 
+    position: relative; margin-top:5%;
 }
 .sec07_wrap{
     width:1400px; margin:0 auto; 
