@@ -15,7 +15,7 @@
         </ul>
     </header>
 
-       <div class="prologue">
+        <div class="prologue">
             <p>
                 우리의 삶 자체가 문제를 해결하는 과정이라는 생각이 들었습니다.
                 그 순간에 좌절보단 해결책을 찾아가는 사람이 되고 싶었습니다.
@@ -27,15 +27,58 @@
         <section>
             <article>
                 <div class="con_text">
+                    <p>IT소외계층이 없는 키오스크 주문</p>
+                    <h1>노인들에겐 어려운 키오스크
+쉬워질 순 없을까
+                    </h1>
+                </div>
+                <div class="con_picture">
+                    <img src="img/i02.png"><a href="#"></a>
+                </div>
+            </article>
+
+            <article>
+                <div class="con_text">
                     <p>실종아동을 찾아주는 전국의 CCTV</p>
                     <h1>전국의 CCTV라면 실종아동을
 찾을 수 있지 않을까?
                     </h1>
                 </div>
-                <div class="con_picture">
-                    <img src="img/ift01.svg">
+                <div class="con_picture" id="modal_btn">
+                    <img src="img/i01.png"><a href="#"></a> 
                 </div>
             </article>
-
+          
         </section>
+
+            <div class="black_bg">
+                <div class="modal_wrap">
+                    <div class="modal_close"><img src="img/close.svg"></div>
+                    <div class="vd">
+                        <video width="878" height="400" src="img/if01.mp4" controls></video>
+                    </div>
+                </div>
+            </div>
+
+        <script>
+            window.onload = function() {
+         
+            function onClick() {
+                document.querySelector('.modal_wrap').style.display ='block';
+                document.querySelector('.black_bg').style.display ='block';
+            }   
+            function offClick() {
+                document.querySelector('.modal_wrap').style.display ='none';
+                document.querySelector('.black_bg').style.display ='none';
+            }
+         
+            document.getElementById('modal_btn').addEventListener('click', onClick);
+            document.querySelector('.modal_close').addEventListener('click', offClick);
+         
+        };
+        </script>
+        
+        
+
 </body>
+
