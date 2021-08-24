@@ -1,7 +1,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=Poppins");
 body{
-    background-color:#fff;
+    background-color:#000;
 }
 header{
     width:1000px;
@@ -17,7 +17,7 @@ header h1{
 header h1 a{
     font-size:28px;
     text-decoration: none;
-    color:#9094A5;
+    color:#AFB3C4;
     font-family:'Poppins', sans-serif;
 }
 .intro{
@@ -60,7 +60,7 @@ header h1 a{
 .nav li a{
     font-size:20px;
     text-decoration: none;
-    color:#9094A5;
+    color:#AFB3C4;
     font-family:"Poppins",sans-serif;
     cursor: pointer;
     transition: 0.2s;
@@ -68,12 +68,12 @@ header h1 a{
 .nav li:hover{
     transform: translate(0, 5px);
 }
-.nav li a:hover{color:#000;}
+.nav li a:hover{color:#fff;}
 
 section{
     width:1000px;
     margin:0 auto;
-    padding:30px; 0 0 0;
+    padding:30px 0 0 0;
 }
 .profile{
     width:40%;
@@ -87,7 +87,7 @@ section{
 }
 .profile a{
     font-size:20px;
-    color:#9094A5;
+    color:#E4E7F2;
     font-weight: 600;
 }
 .profile p{
@@ -99,23 +99,22 @@ section{
     float:right;
     width:50%;
     white-space: pre;
-    color:#9094A5;
     padding:0 0 0 0;
     height:290px;
     
 }
 .coverletter h1{
     line-height: 1.6;
-    margin:0 0 -20px 0;
-    font-size: 26px;
-   
+    margin:0 0 0 0;
+    font-size: 34px;
+    color:#fff;
 }
 .coverletter p{
-    font-size:14px;
+    font-size:16px;
     font-weight: 400;
     line-height: 1.8;
-    margin:0 0 0 0;
-    
+    margin:-10px 0 0 0;
+    color:#D6DBED;
 }
 
 footer{
@@ -125,5 +124,6 @@ footer{
     font-size: 16px;
     width:1000px;
     margin:0 auto;
-    padding:60px 0 0 0;
+    padding:10% 0 0 10%;
 }
+
