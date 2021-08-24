@@ -1,7 +1,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=Poppins");
 body{
-    background-color:#fff;
+    background-color:#000;
 }
 header{
     width:1000px;
@@ -17,7 +17,7 @@ header h1{
 header h1 a{
     font-size:28px;
     text-decoration: none;
-    color:#9094A5;
+    color:#AFB3C4;
     font-family:'Poppins', sans-serif;
 }
 .intro{
@@ -32,7 +32,7 @@ header h1 a{
     margin:0 0 0 0;
 }
 .intro h1 a{
-    color:#717481;
+    color:#F5F5F5;
     font-family: 'noto sans', sans-serif;
     font-size:32px;
     text-decoration: none;
@@ -41,7 +41,7 @@ header h1 a{
     font-size:28px;
     text-align: center;
     padding:6px 0 0 0;
-    color:#9094a5;
+    color:#F5F5F5;
     font-family:'noto sans', sans-serif;
     margin:8px 0 8px 0;
 }
@@ -57,18 +57,20 @@ header h1 a{
     padding-left:40px;
     transition:0.3s;
 } 
+
 .nav li a{
     font-size:20px;
     text-decoration: none;
-    color:#9094A5;
+    color:#AFB3C4;
     font-family:"Poppins",sans-serif;
     cursor: pointer;
     transition: 0.2s;
 }
+.nav li a:hover{color:#fff;}
 .nav li:hover{
     transform: translate(0, 5px);
 }
-.nav li a:hover{color:#000;}
+
 
 section{
     width:1000px;
@@ -80,36 +82,37 @@ section{
 }
 
 article{
-    width:46%;
+    width:46%; height:400px;
     margin:0 10px 0 10px;
     padding:0 0 10% 0;
 }
+
 .con_image{
-    width:100%;
+    width:100%; height:333px;
     overflow: hidden;
 }
 .con_image img{
-    width:100%;
+    width:100%; 
     cursor: pointer;
     transition:0.3s;
 }
 .con_image img:hover{
-    transition: 0.4s;
-    transform:scale(1.1);
+    transform: scale(1.1);
+    transition: transform .35s;
 }
-
 .title{
     width:80%;
 }
 
 .title h1{
-    font-size:44px;
-    color:#9094A5;
-    margin:20px 0 0 0;
+    font-size:34px;
+    color:#fff; font-family: "Poppins", "Noto Sans", "Malgun Gothic",  sans-serif;
+    margin:10px 0 0 0;
 }
 .title p{
-    color:#9094a5;
-    margin:8px 0 0 0;
+    color:#9094a5; font-weight:400;
+    margin:4px 0 0 0; font-size: 14px;
+    font-family: "Poppins", "Noto Sans", "Malgun Gothic",  sans-serif;
 }
 
 footer{
@@ -184,6 +187,9 @@ footer{
         font-family:"Poppins",sans-serif;
         cursor: pointer;
         transition: 0.2s;
+    }
+    .nav li:nth-of-type(1){
+        color:#000;
     }
     .nav li:hover{
         transform: translate(0, 5px);
