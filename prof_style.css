@@ -56,7 +56,7 @@ section{
 .sec01{
     width:100%;
     background-color: #1D1E21;
-    height:540px;
+    height:432px;
  }
 
 .mainimg{
@@ -65,7 +65,7 @@ section{
     margin:0 auto;
 }
 .mainimg img{
-    width:100%;
+    width:80%;
     text-align: center;
     margin:0 auto;
     position: relative;
