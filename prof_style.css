@@ -6,23 +6,22 @@ body{
     font-family: 'Noto sans', Times, Arial, Helvetica, sans-serif;
 }
 header{
-    width:1000px;
+    width:900px;
     margin: 0 auto;
     padding:1% 0 0 0;
     font-family:'Poppins', sans-serif;
 }
 header h1{
     display: inline-block;
-    width:30%;
+    width:30%; 
     font-family:'Poppins', sans-serif;
 }
 header h1 a{
-    font-size:28px;
+    font-size:16px;
     text-decoration: none;
-    color:#9094A5;
+    color:#AFB3C4;
     font-family:'Poppins', sans-serif;
 }
-
 .nav{
     display: inline-block;
     width:65%;
@@ -34,18 +33,19 @@ header h1 a{
     padding-left:40px;
     transition:0.3s;
 } 
+
 .nav li a{
-    font-size:20px;
+    font-size:16px;
     text-decoration: none;
-    color:#9094A5;
+    color:#AFB3C4;
     font-family:"Poppins",sans-serif;
     cursor: pointer;
     transition: 0.2s;
 }
+.nav li a:hover{color:#000;}
 .nav li:hover{
     transform: translate(0, 5px);
 }
-.nav li a:hover{color:#000;}
 
 /* ------------------------------------- project detail */
 
