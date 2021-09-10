@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins");
 
 body{
-    background-color:#fff; margin:0 0 0 0;
+    background-color:#fff;
 }
 header{
     width:900px;
@@ -44,7 +44,6 @@ header h1 a{
 .nav li:hover{
     transform: translate(0, 5px);
 }
-
 /* ------------------------------------- project detail */
 
 section{
@@ -53,7 +52,7 @@ section{
 
 .sec01{
     width:100%;
-    background-color:#a9d8e8;
+    background-color: #A9D8E8;
     height:432px;
  }
 
@@ -68,12 +67,11 @@ section{
     margin:0 auto;
     position: relative;
 }
-
 /* ------------------------------------- section 02 */
 .sec02{
-    width:100%; height: 320px;
-    display:inline-block; padding:60px 0 0 0;
-    background:#fff;
+    width:100%; height: 350px;
+    display:inline-block; padding:40px 0 0 0;
+    background:#141417; font-size: 15px; 
 }
 .sec02_wrap{
     width:1200px; margin:0 auto;
@@ -81,224 +79,166 @@ section{
 .overview{
     width:40%;
     float:left; white-space: pre;
-    padding:0 0 0 100px;  margin:0 auto;
+    padding:0 0 0 200px;  margin:0 auto;
 }
 .overview p{
-    font-weight:400; margin:0; color:#404040;
+    font-weight:400; margin:0; color:#FFFFFF;
 }
 .overview span{
-    display: inline-block; color:#8D8D8D;
-    font-weight:200; font-size: 14px;
+    display: inline-block; color:#D3D3D3;
+    font-weight:200; 
     line-height: 1.8; margin-top:-5px;
+    padding:0 0 80px 0;
 }
 .textinfo{
-    padding:20px 0 0 0;
+    padding:0 0 0 0;
+    white-space: pre; line-height: 1.8;
+    width:40%;
 }
-.textinfo p{color:#404040;}
+.textinfo p{color:#FFFFFF; margin:-20px 0 0 0;}
 .textinfo span{
-    font-weight: 300; color:#8D8D8D;
+    font-weight: 300; color:#D3D3D3;
 }
 /* ------------------------------------- section 03, ux01 */
 .sec03{
-    width:100%; height:600px;
-    background-color:#fcfcfc; 
+    width:100%; height:570px;
+    background-color:#fff; line-height: 1.8;
 }
-.sec03_wrap{
-    width:1200px; margin:0 auto;}
-.ux01_text{
-    padding:50px 0 0 100px;
-}
-.ux01_text p{
-    font-size:13px; color:#D0D0D0;
-}
-.hr01{width:1000px; margin:-5px 0 0 0; border-top: 1px #D0D0D0;}
-.ux01_text h1{
-    white-space: pre; line-height: 1.6;
-    height:28px; padding:10px 0 0 0; color:#090D26;
-}
-.ux01_img{
-   text-align: center;
-}
-.ux01_img img{
-    padding:6% 0 0 0; width:76%;
-}
+.sec03_wrap{width:990px; margin:0 auto;}
+.sec03 p{margin:-5% 0 0 0;}
+.ux01_text1{white-space: pre;} 
+.ux01_text2{white-space: pre;}
+.ux01_text2 h1{margin:-5% 0 2% 0;}
 /* ------------------------------------- section 04, ux02 */
 .sec04{
-    width:100%; height:600px;
-    background-color:#fcfcfc; 
+    width:100%; height:500px;
+    background-color:#fff; 
 }
-.sec04_wrap{
-    width:1200px; margin:0 auto; 
+.sec04_wrap{width:1200px; margin:0 auto; }
+.ux02_text{padding:0 0 0 100px;}
+.ux02_text h2{
+    padding:24px 0 0 0;
+    text-align: center; width:1000px;
 }
-.ux02_text{
-    padding:50px 0 0 100px;
-}
-.ux02_text p{
-    font-size:13px; color:#D0D0D0;
-}
-.hr02{width:1000px; margin:-5px 0 0 0; border-top: 1px #D0D0D0;}
 .ux02_text h1{
     white-space: pre; line-height: 1.6;
-    height:28px; padding:10px 0 0 0; color:#090D26;
+    height:28px; padding:10px 0 0 0;
+}
+.ux02_text p{
+    font-size:13px; color:#000;
 }
 .ux02_img{
    text-align: center; margin:0;
 }
 .ux02_img img{
-    padding:3% 0 0 0; width:66%; 
+    padding:4% 0 0 0; width:74%; 
 }
 /* ------------------------------------- section 05, ux03 */
 .sec05{
-    width:100%; height:730px;
-
+    width:100%; height:600px;
 }
-.sec05_wrap{
-    width:1200px; margin:0 auto;
-}
-.ux03_text{
-    padding:50px 0 0 100px;
-}
+.sec05_wrap{width:1200px; margin:0 auto;}
+.ux03_text{padding:50px 0 0 100px;}
 .ux03_text p{
-    font-size:13px; color:#D0D0D0;
+    font-size:13px; color:#676767;
 }
-.hr03{width:1000px; margin:-5px 0 0 0; border-top: 1px #D0D0D0;}
-.ux03_img{
-   text-align: center; margin:0;
-}
-.ux03_img img{
-    padding:4% 0 0 0; width:74%; 
-}
-/* ------------------------------------------- UI 01 */
+.ux03_img{text-align: center; margin:0;}
+.ux03_img img{padding:0 0 0 0; width:64%;}
+/* ------------------------------------- section 06, ux04 */
 .sec06{
-    width:100%; position: relative;
-    position: relative; 
+    width:100%; height:560px; background-color:#fff;
 }
-.sec06_wrap{
-    width:1400px; margin:0 auto; 
-}
-.ui01_text{
-    padding:10px 0 0 0; position: absolute; 
-    top:2%; left:50%; transform: translateX(-50%);
-}
-.ui01_text p{
-    font-size:13px; color:#fff; 
-}
-.hr04{width:1000px; border-top: 1px #fff;}
-
-.ui01_img{
-   text-align: center; margin:0; 
-   
-}
-.ui01_img img{
-    width:100%; 
-}
-
-.text02 p{font-size: 13px; line-height: 1.8;}
-.text02{
-    white-space: pre; position: absolute; top:68%; left:20%;
-    line-height: 1.6; 
-}
-.text02 h1{height:8px;}
-/* ------------------------------------------- UI 02 */
+.sec06_wrap{width:1200px; margin:0 auto;}
+.ux04_text h1{color:#000;}
+.ux04_text{padding:50px 0 0 100px;}
+.ux04_img{text-align: center; margin:0;}
+.ux04_img img{padding:5% 0 0 0; width:68%;}
+/* ------------------------------------- section 07, ux04 */
 .sec07{
-    width:100%; position: relative;
-    position: relative; margin-top:5%;
+    width:100%; height:560px; background-color:#fff;
+    padding:4% 0 0 0;
 }
-.sec07_wrap{
-    width:1400px; margin:0 auto; 
-}
-.ui02_text{
-    padding:10px 0 0 0; position: absolute; 
-    top:2%; left:50%; transform: translateX(-50%);
-}
-.ui02_text p{
-    font-size:13px; color:#fff; 
-}
-.hr05{width:1000px; border-top: 1px #fff;}
-
-.ui02_img{
-   text-align: center; margin:0; 
-   
-}
-.ui02_img img{
-    width:100%; 
-}
-
-.text03 p{font-size: 13px; line-height: 1.8;}
-.text03{
-    white-space: pre; position: absolute; top:68%; left:20%;
-    line-height: 1.6; 
-}
-.text03 h1{height:8px;}
-/* ------------------------------------------- UI 03 */
+.sec07_wrap{width:1200px; margin:0 auto;}
+.ux05_text h1{color:#000;}
+.ux05_text{padding:50px 0 0 100px;}
+.ux05_img{text-align: center; margin:0;}
+.ux05_img img{padding:2% 0 2% 0; width:74%;}
+/* ------------------------------------------- sec 08 */
 .sec08{
-    width:100%; height:840px; position: relative;
-    margin:0 0 0 0;
+    width:100%; height:900px; margin-top:6%;
 }
 .sec08_wrap{
     width:1200px; margin:0 auto; 
 }
-.ui03_text{
-    padding:40px 0 0 100px;
+.sec08_wrap h1{width:1000px; padding:50px 0 0 100px;}
+.text08{text-align: center;}
+.text08 p{
+    color:#8D8D8D; font-size: 14px; white-space:pre;
+    line-height: 1.8;
 }
+.ui01_img{
+   text-align: center; margin:0;  
+}
+.ui01_img img{
+    width:84%; margin-top:3%;
+}
+
+/* ------------------------------------------- sec 09 */
+.sec09{
+    width:100%; height:900px; margin-top:6%;
+}
+.sec09_wrap{
+    width:1200px; margin:0 auto; 
+}
+.sec09_wrap h1{width:1000px; padding:50px 0 0 100px;}
+.text09{text-align: center;}
+.text09 p{
+    color:#8D8D8D; font-size: 14px; white-space:pre;
+    line-height: 1.8;
+}
+.ui02_img{
+   text-align: center; margin:0;  
+}
+.ui02_img img{
+    width:84%; margin-top:3%;
+}
+/* ------------------------------------------- sec 10 */
+.sec10{
+    width:100%; height:840px; position: relative;
+}
+.sec10_wrap{width:1200px; margin:0 auto; }
+.sec10_wrap h1{width:1000px; padding:50px 0 0 100px;}
+.ui03_text{text-align: center; white-space: pre; margin-top:-20px;}
+.ui03_text h2{font-size: 34px;}
 .ui03_text p{
-    font-size:13px; color:#000; 
-}
-.hr06{
-    width:1000px; margin:0 0 0 0;
+    font-size: 14px; line-height: 1.8; margin-top:-54px;
+    color:#8d8d8d;
 }
 .ui03_img{
+   width:100%;
    text-align: center; margin:0; 
-   
 }
 .ui03_img img{
     width:34%; margin-top:-28px; padding:0 10px;
 }
-.ui03_text2{
-    text-align: center; white-space: pre; margin-top:-20px;}
-.ui03_text2 p{
-    font-size: 13px; line-height: 1.8; margin-top:-44px;}
-/* ------------------------------------------- UI 04 */
-.sec09{
-    width:100%; position: relative; margin:5% 0 0 0;
+/* ------------------------------------------- sec 11 */
+.sec11{
+    width:100%; height:900px; margin-top:6%;
 }
-.sec09_wrap{
-    width:1400px; margin:0 auto; 
+.sec11_wrap{
+    width:1200px; margin:0 auto; 
 }
-.ui04_text{
-    padding:10px 0 0 0; position: absolute; 
-    top:2%; left:50%; transform: translateX(-50%);
-}
-.ui04_text p{
-    font-size:13px; color:#fff; 
-}
-.hr07{width:1000px; border-top: 1px #fff;}
-.ui04_text2{
-    position: absolute;  top:10%; margin:2% 0 0 0;
-    white-space: pre; text-align: center;
-    top:2%; left:50%; transform: translateX(-50%);
-}
-.ui04_text2 p{
-    font-size: 13px; line-height: 1.8; margin-top:-44px;
+.sec11_wrap h1{width:1000px; padding:50px 0 0 100px;}
+.text10{text-align: center;}
+.text10 p{
+    color:#8D8D8D; font-size: 14px; white-space:pre;
+    line-height: 1.8;
 }
 .ui04_img{
-   text-align: center; margin:0; 
-   
+   text-align: center; margin:0;  
 }
 .ui04_img img{
-    width:100%; 
-}
-
-.text05 p{font-size: 13px; line-height: 1.8;}
-.text05{
-    white-space: pre; position: absolute; top:68%; left:20%;
-    line-height: 1.6; 
-}
-.text05 h1{height:8px;}
-/* ------------------------------------------- UI 05 */
-.sec10{
-    padding:7% 0 0 0;
-    background: #fff; text-align: center;
+    width:84%; margin-top:3%;
 }
 /* ------------------------------------------- back to project */
 .moveto{
