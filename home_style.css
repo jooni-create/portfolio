@@ -1,5 +1,4 @@
 
-@import url("https://fonts.googleapis.com/css?family=Poppins");
 body{
     background-color:#000;
 }
@@ -24,30 +23,29 @@ header h1 a{
     width:1000px;
     height:240px;
     margin:0 auto;
-    padding:50px 0 24px 0;
+    padding:64px 0 20px 60px;
+
 }
 .intro h2{
-    color:#Fff; font-weight: 400; text-align: center;
-    font-family: 'Poppins', noto sans, sans-serif;
-    font-size:36px; margin:0 0 0 0;
+    color:#898989; font-weight: 600; 
+    font-family: "noto sans", sans-serif;
+    font-size:36px; margin:0 0 6px 0;
 }
 .intro h1{
-    text-align: center;
     padding:6px 0 0px 0;
     margin:0 0 0 0;
 }
 .intro h1 a{
-    color:#Fff; font-weight: 400;
-    font-family: 'Poppins', noto sans, sans-serif;
+    color:#Fff; font-weight: 600;
+    font-family: "noto sans", sans-serif;
     font-size:36px;
     text-decoration: none;
 }
 .intro p{
-    font-size:14px; white-space: pre;
-    text-align: center;
-    padding:6px 0 0 0;
-    color:#9094A5; line-height: 1.8;
-    font-family:'Poppins', noto sans, sans-serif;
+    font-size:36px; white-space: pre;
+    padding:00 0 0; font-weight: 600;
+    color:#898989; line-height: 1.8;
+    font-family: "noto sans", sans-serif;
     margin:8px 0 8px 0;
 }
 
@@ -75,6 +73,7 @@ header h1 a{
 .nav li:hover{
     transform: translate(0, 5px);
 }
+
 
 section{
     width:1000px;
@@ -110,8 +109,8 @@ article{
 
 .title h1{
     font-size:34px;
-    color:#fff; font-family: "Poppins", "Noto Sans", "Malgun Gothic",  sans-serif;
-    margin:10px 0 0 0;
+    color:#fff; font-family:"Poppins", "Noto Sans", "Malgun Gothic",  sans-serif;
+    margin:10px 0 0 0; font-weight: 400;
 }
 .title p{
     color:#9094a5; font-weight:400;
@@ -233,22 +232,22 @@ footer{
         font-family:'Poppins', sans-serif;
     }
     header h1{
-        font-family:'Poppins', sans-serif; 
+        font-family:'Poppins', sans-serif;
         margin:0 0 3% 0; white-space: pre; 
     }
     header h1 a{
         font-size:20px; color:#fff; 
         text-decoration: none;
-        font-family:'Poppins', sans-serif;
+        font-family:'noto sans', sans-serif;
     }
     .intro{
         width:100%;
-        height:140px;
+        height:140px; 
         margin:0 auto;
         padding:50px 0 0 0;
     }
     .intro h1{
-        text-align: center;
+        text-align: center; 
         padding:6px 0 0 0;
         margin:0 0 0 0; display: none;
     }
