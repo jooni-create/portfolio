@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins");
 
 body{
-    background-color:#fff; margin:0 0 0 0;
+    background-color:#fff;
+    margin:0 0 0 0;
+    font-family: 'Noto sans', Times, Arial, Helvetica, sans-serif;
 }
 header{
     width:900px;
@@ -45,6 +47,7 @@ header h1 a{
     transform: translate(0, 5px);
 }
 
+
 /* ------------------------------------- project detail */
 
 section{
@@ -53,7 +56,7 @@ section{
 
 .sec01{
     width:100%;
-    background-color: #F7CD16;
+    background-color: #FFCC17;
     height:432px;
  }
 
@@ -68,236 +71,182 @@ section{
     margin:0 auto;
     position: relative;
 }
+
 /* ------------------------------------- section 02 */
 .sec02{
-    width:100%; height: 320px;
-    display:inline-block; padding:60px 0 0 0;
-    background:#fff;
+    width:100%; height: 350px;
+    display:inline-block; padding:40px 0 0 0;
+    background:#fff; font-size: 15px; 
 }
 .sec02_wrap{
     width:1200px; margin:0 auto;
 }
+.sec02_wrap::after{
+    content: ""; width: 700px; display: block;
+    border-bottom: 1px solid #e7e7e7; margin:0 auto;
+    padding:40px 0 0 0;
+}
 .overview{
     width:40%;
     float:left; white-space: pre;
-    padding:0 0 0 100px;  margin:0 auto;
+    padding:0 0 0 200px;  margin:0 auto;
 }
 .overview p{
-    font-weight:400; margin:0; color:#404040;
+    font-weight:400; margin:0; color:#000;
 }
 .overview span{
-    display: inline-block; color:#8D8D8D;
-    font-weight:200; font-size: 14px;
+    display: inline-block; color:#838383;
+    font-weight:200; 
     line-height: 1.8; margin-top:-5px;
+    padding:0 0 80px 0;
 }
 .textinfo{
-    padding:20px 0 0 0;
+    padding:0 0 0 0;
+    white-space: pre; line-height: 1.8;
+    width:40%;
 }
-.textinfo p{color:#404040;}
+.textinfo p{color:#000; margin:-20px 0 0 0;}
 .textinfo span{
-    font-weight: 300; color:#8D8D8D;
+    font-weight: 300; color:#838383;
 }
 /* ------------------------------------- section 03, ux01 */
 .sec03{
-    width:100%; height:500px;
-    background-color:#fcfcfc; 
+    width:100%; height:570px;
+    background-color:#fff; line-height: 1.8;
 }
-.sec03_wrap{
-    width:1200px; margin:0 auto;}
-.ux01_text{
-    padding:50px 0 0 100px;
-}
-.ux01_text p{
-    font-size:13px; color:#B8B8B8;
-}
-.hr01{width:1000px; margin:-5px 0 0 0; border-top: 1px #B8B8B8;}
-.ux01_text h1{
-    white-space: pre; line-height: 1.6;
-    height:28px; padding:10px 0 0 0; width:30%;
-}
-.ux01_img{
-   text-align: center;
-}
-.ux01_img img{
-    padding:0 0 0 28%; width:50%;
-}
+.sec03_wrap{width:990px; margin:0 auto;}
+.sec03 p{margin:-5% 0 0 0;}
+.ux01_text1{white-space: pre;} 
+.ux01_text2{white-space: pre;}
+.ux01_text2 h1{margin:-5% 0 2% 0;}
 /* ------------------------------------- section 04, ux02 */
 .sec04{
     width:100%; height:550px;
-    background-color:#fcfcfc; 
+    background-color:#fff; 
 }
-.sec04_wrap{
-    width:1200px; margin:0 auto; 
+.sec04_wrap{width:1200px; margin:0 auto; }
+.ux02_text{padding:0 0 0 100px;}
+.ux02_text h2{
+    padding:24px 0 0 0;
+    text-align: center; width:1000px;
 }
-.ux02_text{
-    padding:50px 0 0 100px;
-}
-.ux02_text p{
-    font-size:13px; color:#B8B8B8;
-}
-.hr02{width:1000px; margin:-5px 0 0 0; border-top:1px #B8B8B8}
 .ux02_text h1{
     white-space: pre; line-height: 1.6;
     height:28px; padding:10px 0 0 0;
-    color:#4E565D;
+}
+.ux02_text p{
+    font-size:13px; color:#000;
 }
 .ux02_img{
    text-align: center; margin:0;
 }
 .ux02_img img{
-    padding:10% 0 0 0; width:70%; 
+    padding:4% 0 0 0; width:64%; 
 }
 /* ------------------------------------- section 05, ux03 */
 .sec05{
-    width:100%; height:730px;
+    width:100%; height:600px;
 }
-.sec05_wrap{
-    width:1200px; margin:0 auto;
-}
-.ux03_text{
-    padding:50px 0 0 100px;
-}
+.sec05_wrap{width:1200px; margin:0 auto;}
+.ux03_text{padding:50px 0 0 100px;}
 .ux03_text p{
-    font-size:13px; color:#B8B8B8;
+    font-size:13px; color:#676767;
 }
-.hr03{width:1000px; margin:-5px 0 0 0; border-top:1px #B8B8B8;}
-.ux03_img{
-   text-align: center; margin:0;
-}
-.ux03_img img{
-    padding:4% 0 0 0; width:70%; 
-}
-/* ------------------------------------------- UI 01 */
+.ux03_img{text-align: center; margin:0;}
+.ux03_img img{padding:0 0 0 0; width:60%;}
+/* ------------------------------------- section 06, ux04 */
 .sec06{
-    width:100%; height:1200px; position: relative;
-    background: linear-gradient(#fff, #F7F9FC);
-    
+    width:100%; height:560px; background-color:#fff;
 }
-.sec06_wrap{
-    width:1200px; margin:0 auto; 
-}
-.ui01_text{
-    padding:40px 0 0 100px;
-}
-
-.ui01_text p{
-    font-size:13px; color:#B8B8B8; 
-}
-.hr04{
-    width:1000px; margin:0 0 0 0; border-top:1px #B8B8B8;
-}
-.ui01_img{
-   text-align: center; margin:0; 
-   
-}
-.ui01_img img{
-    width:66%; 
-    padding: 2% 0 0 0; 
-}
-.text01{
-    white-space: pre; position: absolute; top:8%; right:20%;
-    line-height: 1.6; 
-}
-.text01 h1{ height:8px; color: #4E565D;} 
-.text01 p{font-size: 13px; line-height: 1.8; color:#8D8D8D;}
-.text02 p{font-size: 13px; line-height: 1.8; color:#8D8D8D;}
-.text02{
-    white-space: pre; position: absolute; top:54%; left:20%;
-    line-height: 1.6; 
-}
-.text02 h1{height:8px; color: #4E565D;}
-/* ------------------------------------------- UI 02 */
+.sec06_wrap{width:1200px; margin:0 auto;}
+.ux04_text h1{color:#000;}
+.ux04_text{padding:50px 0 0 100px;}
+.ux04_img{text-align: center; margin:0;}
+.ux04_img img{padding:2% 0 0 0; width:60%;}
+/* ------------------------------------- section 07, ux04 */
 .sec07{
-    width:100%; height:800px; position: relative;
+    width:100%; height:560px; background-color:#fff;
 }
-.sec07_wrap{
-    width:1200px; margin:0 auto; 
-}
-.ui02_text{
-    padding:40px 0 0 100px;
-}
-.ui02_text p{
-    font-size:13px; color:#B8B8B8; 
-}
-.hr05{
-    width:1000px; margin:0 0 0 0; border-top:1px #B8B8B8;
-}
-.ui02_img{
-   text-align: center; 
-
-}
-.ui02_img img{
-    width:76%; margin-top:-24px;
-}
-.ui02_text2{
-    text-align: center; white-space: pre; margin-top:-20px;}
-.ui02_text2 h1{color: #4E565D;}
-.ui02_text2 p{
-    font-size: 13px; line-height: 1.8; margin-top:-44px; color: #8D8D8D;
-    height:50px;
-}
-/* ------------------------------------------- UI 03 */
+.sec07_wrap{width:1200px; margin:0 auto;}
+.ux05_text h1{color:#000;}
+.ux05_text{padding:50px 0 0 100px;}
+.ux05_img{text-align: center; margin:0;}
+.ux05_img img{padding:2% 0 2% 0; width:68%;}
+/* ------------------------------------------- UI 01 */
 .sec08{
+    width:100%; height:1300px; position: relative;
+    padding:6% 0 0 0;
+}
+.sec08_wrap{ width:1200px; margin:0 auto;}
+.sec08_wrap h1{width:1000px; padding:50px 0 0 100px;}
+.ui01_img{margin:0 0 0 0;}
+.ui01_img img{width:48%; margin:0 0 0 10%;}
+.text08{
+    white-space: pre; position: absolute; top:20%; right:20%;
+    line-height: 1.6; 
+}
+.text08 h2{ height:8px; font-size:34px;}
+.text08 p{font-size: 15px; line-height: 1.8; padding:8% 0 0 0;}
+/* ------------------------------------------- UI 02 */
+.sec09_wrap{width:1000px; margin:-8% 0 0 0;}
+.sec09_wrap h1{width:1000px; padding:50px 0 0 100px;}
+.ui02_img{
+    position: absolute; top:60%; left:44%;
+    margin:0 0 0 0;
+}
+.ui02_img img{width:86%;}
+.text09{
+    white-space: pre; padding:16% 0 0 16%;
+    line-height: 1.6; 
+}
+.text09 h2{ height:8px; font-size:34px;}
+.text09 p{font-size: 15px; line-height: 1.8; padding:3% 0 0 0;}
+/* ------------------------------------------- UI 03 sec 10 */
+.sec10{
+    width:100%; height:850px; position: relative;
+    padding:6% 0 0 0;
+}
+.sec10_wrap{ width:1200px; margin:0 auto;}
+.sec10_wrap h1{width:1000px; padding:50px 0 0 100px;}
+.ui03_img{margin:0 0 0 0;}
+.ui03_img video{width:34%; margin:-16% 0 0 14%;}
+.text10{
+    white-space: pre; position: absolute; top:30%; right:28%;
+    line-height: 1.6; 
+}
+.text10 h2{ height:8px; font-size:34px;}
+.text10 p{font-size: 15px; line-height: 1.8; padding:8% 0 0 0;}
+/* ------------------------------------------- UI 04 sec 11 */
+.sec11{
     width:100%; height:840px; position: relative;
 }
-.sec08_wrap{
-    width:1200px; margin:0 auto; 
-}
-.ui03_text{
-    padding:40px 0 0 100px;
-}
-.ui03_text p{
-    font-size:13px; color:#B8B8B8; 
-}
-.hr06{
-    width:1000px; margin:0 0 0 0; border-top:1px #B8B8B8;
-}
-.ui03_img{
-   text-align: center; margin:0; 
-   
-}
-.ui03_img img{
-    width:68%; margin-top:-28px; padding:0 10px;
-}
-.ui03_text2{
-    text-align: center; white-space: pre; margin-top:-20px;}
-.ui03_text2 h1{color:#4E565D;}
-.ui03_text2 p{
-    font-size: 13px; line-height: 1.8; margin-top:-44px; color:#8D8D8D;}
-/* ------------------------------------------- UI 04 */
-.sec09{
-    width:100%; height:850px; position: relative;
-}
-.sec09_wrap{
-    width:1200px; margin:0 auto; 
-}
-.ui04_text{
-    padding:40px 0 0 100px;
-}
-.ui04_text p{
-    font-size:13px; color:#B8B8B8;
-}
-.hr07{
-    width:1000px; margin:0 0 0 0; border-top:1px #B8B8B8;
-}
+.sec11_wrap{width:1200px; margin:0 auto; }
+.sec11_wrap h1{width:1000px; padding:50px 0 0 100px;}
+.ui04_text{text-align: center; white-space: pre; margin-top:-20px;}
+.ui04_text h2{font-size: 34px;}
+.ui04_text p{font-size: 14px; line-height: 1.8; margin-top:-54px;}
 .ui04_img{
+   width:100%;
    text-align: center; margin:0; 
-   
 }
 .ui04_img img{
-    width:78%; margin-top:-28px; padding:0 10px;
+    width:60%; padding:0 10px; margin-top:-32px;
 }
-.ui04_text2{
-    text-align: center; white-space: pre; margin-top:-20px;}
-.ui04_text2 h1{color: #4E565D;}
-.ui04_text2 p{
-    height:50px;
-    font-size: 13px; line-height: 1.8; margin-top:-44px; color:#8D8D8D;}
-/* ------------------------------------------- UI 05 */
-.sec10{
-    padding:4% 0 0 0;
-    background: #fff; text-align: center;
+/* ------------------------------------------- sec 12 */
+.sec12{
+    width:100%; height:850px; position: relative;
+    padding:6% 0 0 0;
 }
+.sec12_wrap{ width:1200px; margin:0 auto;}
+.sec12_wrap h1{width:1000px; padding:50px 0 0 100px;}
+.ui05_img{margin:0 0 0 0;}
+.ui05_img video{width:34%; margin:-16% 0 0 14%;}
+.text12{
+    white-space: pre; position: absolute; top:30%; right:28%;
+    line-height: 1.6; 
+}
+.text12 h2{ height:8px; font-size:34px;}
+.text12 p{font-size: 15px; line-height: 1.8; padding:8% 0 0 0;}
 /* ------------------------------------------- back to project */
 .moveto{
     width:100%; text-align: center;
