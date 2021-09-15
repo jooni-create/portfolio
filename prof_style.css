@@ -3,24 +3,24 @@
 body{
     background-color:#fff;
     margin:0 0 0 0;
-    font-family: "Poppins", Noto sans, Times, Arial, Helvetica, sans-serif;
+    font-family: "Poppins", "Noto Sans", "Malgun Gothic",  sans-serif;
 }
 header{
     width:900px;
     margin: 0 auto;
     padding:1% 0 0 0;
-    font-family:'Poppins', sans-serif;
+    font-family: "Poppins", "Noto Sans", "Malgun Gothic",  sans-serif;
 }
 header h1{
     display: inline-block;
     width:30%; 
-    font-family:'Poppins', sans-serif;
+    font-family: "Poppins", "Noto Sans", "Malgun Gothic",  sans-serif;
 }
 header h1 a{
     font-size:16px;
     text-decoration: none;
     color:#AFB3C4;
-    font-family:'Poppins', sans-serif;
+    font-family: "Poppins", "Noto Sans", "Malgun Gothic",  sans-serif;
 }
 .nav{
     display: inline-block;
@@ -38,7 +38,7 @@ header h1 a{
     font-size:16px;
     text-decoration: none;
     color:#AFB3C4;
-    font-family:"Poppins",sans-serif;
+    font-family: "Poppins", "Noto Sans", "Malgun Gothic",  sans-serif;
     cursor: pointer;
     transition: 0.2s;
 }
