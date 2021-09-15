@@ -1,20 +1,20 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins");
 body{
-    background-color:#000;
+    background-color:#fff;
 }
 header{
-    width:1000px;
+    width:900px;
     margin: 0 auto;
     padding:1% 0 0 0;
     font-family:'Poppins', sans-serif;
 }
 header h1{
     display: inline-block;
-    width:30%;
+    width:30%; 
     font-family:'Poppins', sans-serif;
 }
 header h1 a{
-    font-size:28px;
+    font-size:16px;
     text-decoration: none;
     color:#AFB3C4;
     font-family:'Poppins', sans-serif;
@@ -31,29 +31,31 @@ header h1 a{
     padding-left:40px;
     transition:0.3s;
 } 
+
 .nav li a{
-    font-size:20px;
+    font-size:16px;
     text-decoration: none;
     color:#AFB3C4;
     font-family:"Poppins",sans-serif;
     cursor: pointer;
     transition: 0.2s;
 }
+.nav li a:hover{color:#fff;}
 .nav li:hover{
     transform: translate(0, 5px);
 }
-.nav li a:hover{color:#fff;}
 
 .prologue{
     width:1000px;
     text-align: center;
     margin:0 auto;
+    padding:1% 0 0 0;
 }
 
 .prologue p{
     white-space: pre;
     line-height: 2;
-    color:#D6DBED;
+    color:#676767;
 }
 section{
     width:1200px; margin:0 auto;
@@ -61,20 +63,21 @@ section{
 }
 article{
     width:1000px; margin:0 auto;
-    padding:50px 0 0 0; 
+    padding:1% 0 0 0; 
 }
 .con_text{
     width:40%; position: absolute;
+    padding:0 0 0 4%;
 }
 .con_text p{
-    color:#B8BCCE;
+    color:#9094A5;
     padding:22% 0 0 0;
 }
 .con_text h1{
     white-space: pre;
-    font-size:30px;
+    font-size:32px;
     line-height: 1.7;
-    margin:0 0 0 0; color:#fff;
+    margin:0 0 0 0; color:#000;
 }
 .con_picture{
     width:50%; margin-left:46%;
@@ -89,14 +92,14 @@ article{
     height: 400px;
     position: absolute;
     left:50%;
-    top:16%;
+    top:20%;
     transform: translateX(-50%);
     margin:0 auto;
     z-index: 2;
 }
 .black_bg{
     display: none;
-    position: absolute;
+    position:fixed;
     content: "";
     width: 100%;
     height: 100%;
@@ -122,3 +125,5 @@ article{
 .vd video{
     width:100%; 
 }
+
+
