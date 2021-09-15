@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins");
 body{
     background-color:#fff;
+    font-family: "Poppins", "Noto Sans", "Malgun Gothic",  sans-serif;
 }
 header{
     width:900px;
