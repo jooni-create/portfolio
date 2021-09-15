@@ -4,46 +4,21 @@ body{
     background-color:#000;
 }
 header{
-    width:1000px;
+    width:900px;
     margin: 0 auto;
     padding:1% 0 0 0;
     font-family:'Poppins', sans-serif;
 }
 header h1{
     display: inline-block;
-    width:30%;
+    width:30%; 
     font-family:'Poppins', sans-serif;
 }
 header h1 a{
-    font-size:28px;
+    font-size:16px;
     text-decoration: none;
     color:#AFB3C4;
     font-family:'Poppins', sans-serif;
-}
-.intro{
-    width:1000px;
-    height:240px;
-    margin:0 auto;
-    padding:50px 0 36px 0;
-}
-.intro h1{
-    text-align: center;
-    padding:10px 0 0px 0;
-    margin:0 0 0 0;
-}
-.intro h1 a{
-    color:#717481;
-    font-family: 'noto sans', sans-serif;
-    font-size:28px;
-    text-decoration: none;
-}
-.intro p{
-    font-size:24px;
-    text-align: center;
-    padding:10px 0 0 0;
-    color:#9094a5;
-    font-family:'noto sans', sans-serif;
-    margin:8px 0 8px 0;
 }
 
 .nav{
@@ -57,18 +32,20 @@ header h1 a{
     padding-left:40px;
     transition:0.3s;
 } 
+
 .nav li a{
-    font-size:20px;
+    font-size:16px;
     text-decoration: none;
     color:#AFB3C4;
     font-family:"Poppins",sans-serif;
     cursor: pointer;
     transition: 0.2s;
 }
+.nav li a:hover{color:#fff;}
 .nav li:hover{
     transform: translate(0, 5px);
 }
-.nav li a:hover{color:#fff;}
+
 
 section{
     width:1000px;
